@@ -28,6 +28,7 @@ pip install imageio imageio-ffmpeg opencv-python numpy tqdm pyyaml pillow
     python -m jittor_utils.install_cuda
     ```
     2. 准备事项：安装openmpi
+
     jittor利用openmpi来完成多卡计算，为了验证机器上是否安装了openmpi，可以在终端输入如下命令：
     ```shell
     mpirun
@@ -51,6 +52,7 @@ pip install imageio imageio-ffmpeg opencv-python numpy tqdm pyyaml pillow
     which mpirun
     ```
     如果能成功输出命令路径说明安装成功。
+
     3. 安装jittor
     准备事项完成后，可以利用pip直接安装jittor
     ```shell
